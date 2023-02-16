@@ -87,6 +87,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    word-break: break-all;
     margin: 15px;
     padding-left: 20px;
     list-style: none;
@@ -95,6 +96,7 @@ h1 {
 
 .tools {
     display: inline-block;
+    min-width: 115px;
 }
 
 .tools button {
@@ -138,7 +140,7 @@ h1 {
     bottom: 20px;
     left: 50%;
     transform: translate(-50%);
-    width: 800px;
+    width: 80vw;
     color: var(--light);
     background-color: var(--light-dark);
     border-radius: 5px;
@@ -203,10 +205,6 @@ h1 {
 
     .add-btn {
         margin-top: 20px;
-    }
-
-    .popup {
-        width: 80vw;
     }
 
     .popup-btn {
